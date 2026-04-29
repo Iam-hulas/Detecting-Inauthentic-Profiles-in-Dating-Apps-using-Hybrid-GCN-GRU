@@ -9,7 +9,7 @@ This project builds a production-style machine learning system that detects such
 
 🔗 Graph Intelligence (GCN) → Learns relationships between users
 
-⏳ Temporal Behavior Modeling (GRU) → Captures evolving activity patterns
+⏳ Behavior Modeling (GRU) → Captures evolving activity patterns
 
 Unlike traditional ML models, this approach analyzes users in context, not isolation.
 
@@ -46,11 +46,11 @@ Captures hidden behavioral clusters
 
 GCN (Graph Convolutional Network)
 
-→ Learns structural embeddings from user graph
+→ Learns structural embeddings from the user graph
 
 GRU (Gated Recurrent Unit)
 
-→ Learns temporal patterns from user activity sequences
+→ Learns behavior patterns from user activity sequences
 
 Fusion Layer
 
@@ -124,7 +124,7 @@ Deploy as a scalable API service
 <img width="1888" height="967" alt="Screenshot 2026-04-29 114827" src="https://github.com/user-attachments/assets/9be52a8a-0438-4aea-9f9a-5d632920bee0" />
 
 
-webpage with dasboard to search and filter the profiles 
+A webpage with a dashboard to search and filter the profiles 
 
 
 <img width="1366" height="808" alt="Screenshot 2026-04-29 114955" src="https://github.com/user-attachments/assets/c6268d1d-e2e4-4ed9-aafc-542777a9a4f0" />
@@ -138,14 +138,14 @@ Graph constructed using cosine similarity and visualised using kNN with 15 neigh
 
 
 
-fused features from gcn-gru and passed on to softmax function to produce probability function.
+Fused features from GCN-GRU and passed on to the softmax function to produce a probability score.
 
-the output has be visualized in risk meter and confidence score is displayed
+The output has been visualized in the risk meter, and the confidence score is displayed
 
 
 
 <img width="1438" height="539" alt="Screenshot 2026-04-29 115047" src="https://github.com/user-attachments/assets/366c7698-1d2a-4b1d-8b3c-5a579e26060e" />
 
-behavioral analysis of the profile on the given metrics and visualized in radar chart
+Behavioral analysis of the profile on the given metrics and visualized in a radar chart
 
 
