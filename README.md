@@ -5,7 +5,7 @@
 
 Online dating platforms face a growing challenge: fake profiles, bots, and coordinated spam behavior.
 
-This project builds a production-style machine learning system that detects such inauthentic profiles by combining:
+This project builds a production-style deep learning system that detects such inauthentic profiles by combining:
 
 🔗 Graph Intelligence (GCN) → Learns relationships between users
 
@@ -139,7 +139,6 @@ Graph constructed using cosine similarity and visualised using kNN with 15 neigh
 
 
 Fused features from GCN-GRU and passed on to the softmax function to produce a probability score.
-
 The output has been visualized in the risk meter, and the confidence score is displayed
 
 
